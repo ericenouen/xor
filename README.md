@@ -11,9 +11,7 @@ https://medium.com/@jayeshbahire/the-xor-problem-in-neural-networks-50006411840b
 
 https://www.ics.uci.edu/~pjsadows/notes.pdf
 
-
-## Architecture
-
+## XOR Function for Four Possible Inputs
 | Input 1 | Input 2 | Output |
 |---------|---------|--------|
 |    1    |    1    |    0   |
@@ -21,6 +19,7 @@ https://www.ics.uci.edu/~pjsadows/notes.pdf
 |    0    |    1    |    1   |
 |    0    |    0    |    0   |
 
+## Architecture
 ![alt text](nn.svg)
 ## Backpropagation
 
