@@ -38,10 +38,15 @@ The derivative is equal to the following:
 <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{p-y}{p(1-p)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{p-y}{p(1-p)}" title="\frac{p-y}{p(1-p)}" /></a>
 
 
-* Derivative for Sigmoid
-* Derivative for Weight multiply
-* Derivative for Sigmoid
-* Derivative for Weight multiply
+* Derivative for Sigmoid Function
+
+The Sigmoid Function has the following equation
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{1}{1&plus;e^{-x}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{1}{1&plus;e^{-x}}" title="\frac{1}{1+e^{-x}}" /></a>
+
+* Derivative for Linear Function
+* Derivative for Sigmoid Function
+* Derivative for Linear Function
 
 Chain rule to combine them for the weights and bias terms
 
