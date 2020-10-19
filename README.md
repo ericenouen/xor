@@ -15,6 +15,7 @@ https://www.ics.uci.edu/~pjsadows/notes.pdf
 ## Architecture
 
 | Input 1 | Input 2 | Output |
+|---------|---------|--------|
 |    1    |    1    |    0   |
 |    1    |    0    |    1   |
 |    0    |    1    |    1   |
