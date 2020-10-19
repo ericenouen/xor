@@ -36,7 +36,8 @@ Then we must take its derivative:
 The derivative is equal to the following:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{p-y}{p(1-p)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{p-y}{p(1-p)}" title="\frac{p-y}{p(1-p)}" /></a>
-</br>
+
+
 * Derivative for Sigmoid
 * Derivative for Weight multiply
 * Derivative for Sigmoid
