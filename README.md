@@ -13,7 +13,7 @@ https://www.ics.uci.edu/~pjsadows/notes.pdf
 
 
 ## Architecture
-
+![alt text](nn.svg)
 ## Backpropagation
 
 * Derivative for Loss
