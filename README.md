@@ -28,8 +28,9 @@ https://www.ics.uci.edu/~pjsadows/notes.pdf
 I used Cross Entropy loss for this model which has the following equation:
 
   <a href="https://www.codecogs.com/eqnedit.php?latex=Loss&space;=&space;-(ylog(p)&plus;(1-y)log(1-p))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Loss&space;=&space;-(ylog(p)&plus;(1-y)log(1-p))" title="Loss = -(ylog(p)+(1-y)log(1-p))" /></a>
-  
 
+Then we must take it's derivative: 
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial}{\partial&space;y}(-ylog(p)-(1-y)log(1-p))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial}{\partial&space;y}(-ylog(p)-(1-y)log(1-p))" title="\frac{\partial}{\partial y}(-ylog(p)-(1-y)log(1-p))" /></a>
 
 * Derivative for Sigmoid
 * Derivative for Weight multiply
