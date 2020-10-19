@@ -5,7 +5,9 @@ In this project, I was looking to gain more familiarity with how the gradients w
 
 A couple of links that I used to find more information or used for inspiration.
 https://pages.mtu.edu/~nilufer/classes/cs4811/2016-spring/hw01-neural-networks.pdf
+
 https://medium.com/@jayeshbahire/the-xor-problem-in-neural-networks-50006411840b
+
 https://www.ics.uci.edu/~pjsadows/notes.pdf
 
 
