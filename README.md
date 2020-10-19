@@ -23,30 +23,30 @@ https://www.ics.uci.edu/~pjsadows/notes.pdf
 ![alt text](nn.svg)
 ## Backpropagation
 
-* Derivative for Loss
+### Derivative for Loss
 
-      I used Cross Entropy loss for this model which has the following equation:
+I used Cross Entropy loss for this model which has the following equation:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=Loss&space;=&space;-(ylog(p)&plus;(1-y)log(1-p))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Loss&space;=&space;-(ylog(p)&plus;(1-y)log(1-p))" title="Loss = -(ylog(p)+(1-y)log(1-p))" /></a>
 
-      Then we must take its derivative:
+Then we must take its derivative:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial}{\partial&space;y}(-ylog(p)-(1-y)log(1-p))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial}{\partial&space;y}(-ylog(p)-(1-y)log(1-p))" title="\frac{\partial}{\partial y}(-ylog(p)-(1-y)log(1-p))" /></a>
 
-      The derivative is equal to the following:
+The derivative is equal to the following:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{p-y}{p(1-p)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{p-y}{p(1-p)}" title="\frac{p-y}{p(1-p)}" /></a>
 
 
-* Derivative for Sigmoid Function
+### Derivative for Sigmoid Function
 
 The Sigmoid Function has the following equation
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{1}{1&plus;e^{-x}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{1}{1&plus;e^{-x}}" title="\frac{1}{1+e^{-x}}" /></a>
 
-* Derivative for Linear Function
-* Derivative for Sigmoid Function
-* Derivative for Linear Function
+### Derivative for Linear Function
+### Derivative for Sigmoid Function
+### Derivative for Linear Function
 
 Chain rule to combine them for the weights and bias terms
 
