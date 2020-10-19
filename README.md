@@ -16,11 +16,11 @@ https://www.ics.uci.edu/~pjsadows/notes.pdf
 
 ## Backpropagation
 
-*Derivative for Loss
-*Derivative for Sigmoid
-*Derivative for Weight multiply
-*Derivative for Sigmoid
-*Derivative for Weight multiply
+* Derivative for Loss
+* Derivative for Sigmoid
+* Derivative for Weight multiply
+* Derivative for Sigmoid
+* Derivative for Weight multiply
 
 Chain rule to combine them for the weights and bias terms
 
