@@ -70,7 +70,7 @@ The derivative is equal to the following:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=W" target="_blank"><img src="https://latex.codecogs.com/gif.latex?W" title="W" /></a>
 
-
+Then for the bias parameter:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial}{\partial&space;b}(Wx&plus;b)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial}{\partial&space;b}(Wx&plus;b)" title="\frac{\partial}{\partial b}(Wx+b)" /></a>
 
