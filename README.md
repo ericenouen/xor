@@ -98,7 +98,9 @@ For this problem gradient descent will often get stuck in plateaus. There have b
 
 Whether the model gets stuck on a plateau is largely dependent on the initialization of the weights. Since the weights are randomly initialized, sometimes the model will converge to the minima and sometimes the model will not converge in a reasonable amount of epochs.
 
-
+## Model did not Converge
 ![alt text](Output_Plateau.jpeg)
 ![alt text](Output_Plateau2.jpeg)
+
+## Model Converged
 ![alt text](Output_Graph.jpeg)
