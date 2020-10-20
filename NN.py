@@ -56,7 +56,7 @@ for epoch in range(100000):
         grad_W_0_3 = (y_predict - y[i]) * W_1[0] * (a_1[0] * (1 - a_1[0]) * X[i, 1])
         grad_W_0_4 = (y_predict - y[i]) * W_1[1] * (a_1[1] * (1 - a_1[1]) * X[i, 1])
         
-        grad_W_0 += np.reshape([[grad_W_0_1, grad_W_0_2], [grad_W_0_3, grad_W_0_4]], (2,2)) # dL/dy * dy/ds * ds/dh * dh/ds(j) * ds(j)/dw(kj)
+        grad_W_0 += np.reshape([[grad_W_0_1, grad_W_0_2], [grad_W_0_3, grad_W_0_4]], (2,2))
 
         # Add up gradient for bias parameters
         grad_b_1 += np.reshape([(y_predict - y[i])], (1))
