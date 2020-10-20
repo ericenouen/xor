@@ -27,15 +27,15 @@ https://www.ics.uci.edu/~pjsadows/notes.pdf
 
 I used Cross Entropy loss for this model which has the following equation:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=Loss&space;=&space;-(ylog(p)&plus;(1-y)log(1-p))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Loss&space;=&space;-(ylog(p)&plus;(1-y)log(1-p))" title="Loss = -(ylog(p)+(1-y)log(1-p))" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=Loss&space;=&space;-(tlog(y)&plus;(1-t)log(1-y))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Loss&space;=&space;-(tlog(y)&plus;(1-t)log(1-y))" title="Loss = -(tlog(y)+(1-t)log(1-y))" /></a>
 
 Then we must take its derivative:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial}{\partial&space;y}(-ylog(p)-(1-y)log(1-p))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial}{\partial&space;y}(-ylog(p)-(1-y)log(1-p))" title="\frac{\partial}{\partial y}(-ylog(p)-(1-y)log(1-p))" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial}{\partial&space;y}(-tlog(y)-(1-t)log(1-y))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial}{\partial&space;y}(-tlog(y)-(1-t)log(1-y))" title="\frac{\partial}{\partial y}(-tlog(y)-(1-t)log(1-y))" /></a>
 
 The derivative is equal to the following:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{p-y}{p(1-p)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{p-y}{p(1-p)}" title="\frac{p-y}{p(1-p)}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{y-t}{y(1-y)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{y-t}{y(1-y)}" title="\frac{y-t}{y(1-y)}" /></a>
 
 
 ### Derivative for Sigmoid Function
