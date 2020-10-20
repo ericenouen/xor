@@ -44,6 +44,8 @@ The Sigmoid Function has the following equation
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{1}{1&plus;e^{-x}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{1}{1&plus;e^{-x}}" title="\frac{1}{1+e^{-x}}" /></a>
 
+Then we must take the derivative
+
 ### Derivative for Linear Function
 ### Derivative for Sigmoid Function
 ### Derivative for Linear Function
