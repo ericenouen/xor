@@ -90,7 +90,7 @@ Bias 1: <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial&space
 
 Bias 0: <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial&space;L}{\partial&space;b0}=\frac{\partial&space;L}{\partial&space;y}*\frac{\partial&space;y}{\partial&space;a1}*\frac{\partial&space;a1}{\partial&space;x1}&space;*&space;\frac{\partial&space;x1}{\partial&space;a0}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial&space;L}{\partial&space;b0}=\frac{\partial&space;L}{\partial&space;y}*\frac{\partial&space;y}{\partial&space;a1}*\frac{\partial&space;a1}{\partial&space;x1}&space;*&space;\frac{\partial&space;x1}{\partial&space;a0}" title="\frac{\partial L}{\partial b0}=\frac{\partial L}{\partial y}*\frac{\partial y}{\partial a1}*\frac{\partial a1}{\partial x1} * \frac{\partial x1}{\partial a0}" /></a>
 
-Chain rule to combine them for the weights and bias terms
+These were computed and are shown in the attached python file. There will be some differences between the first and second weights/bias values but their derivatives are essentially the same.
 
 ## Optimization
 
