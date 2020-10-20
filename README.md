@@ -101,4 +101,4 @@ Whether the model gets stuck on a plateau is largely dependent on the initializa
 
 ![alt text](Output_Plateau.jpeg)
 ![alt text](Output_Plateau2.jpeg)
-![alt text](Output Graph.jpeg)
+![alt text](Output_Graph.jpeg)
