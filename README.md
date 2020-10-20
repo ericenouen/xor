@@ -42,11 +42,11 @@ The derivative is equal to the following:
 
 The Sigmoid Function has the following equation
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{1}{1&plus;e^{-x}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{1}{1&plus;e^{-x}}" title="\frac{1}{1+e^{-x}}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=y=\frac{1}{1&plus;e^{-x}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?y=\frac{1}{1&plus;e^{-x}}" title="y=\frac{1}{1+e^{-x}}" /></a>
 
 Then we must take the derivative
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{d}{dx}\frac{1}{1&plus;e^{-x}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{d}{dx}\frac{1}{1&plus;e^{-x}}" title="\frac{d}{dx}\frac{1}{1+e^{-x}}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{d}{dx}(\frac{1}{1&plus;e^{-x}})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{d}{dx}(\frac{1}{1&plus;e^{-x}})" title="\frac{d}{dx}(\frac{1}{1+e^{-x}})" /></a>
 
 The derivative is equal to the following:
 
