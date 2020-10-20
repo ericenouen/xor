@@ -46,6 +46,14 @@ The Sigmoid Function has the following equation
 
 Then we must take the derivative
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{d}{dx}\frac{1}{1&plus;e^{-x}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{d}{dx}\frac{1}{1&plus;e^{-x}}" title="\frac{d}{dx}\frac{1}{1+e^{-x}}" /></a>
+
+The derivative is equal to the following:
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{e^{-x}}{(1&plus;e^{-x})^{2}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{e^{-x}}{(1&plus;e^{-x})^{2}}" title="\frac{e^{-x}}{(1+e^{-x})^{2}}" /></a>
+
+From there we can plug use the sigmoid equation to get the derivative in terms of y
+
 ### Derivative for Linear Function
 ### Derivative for Sigmoid Function
 ### Derivative for Linear Function
