@@ -79,6 +79,17 @@ The derivative is equal to the following:
 <a href="https://www.codecogs.com/eqnedit.php?latex=1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?1" title="1" /></a>
 
 ### Chain Rule
+
+Since this network only has one hidden layer, there is only four different parameters:    Weight 0 | Weight 1 | Bias 0 | Bias 1
+
+Weight 1: <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial&space;L}{\partial&space;w1}=\frac{\partial&space;L}{\partial&space;y}*\frac{\partial&space;y}{\partial&space;x1}*\frac{\partial&space;x1}{\partial&space;w1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial&space;L}{\partial&space;w1}=\frac{\partial&space;L}{\partial&space;y}*\frac{\partial&space;y}{\partial&space;x1}*\frac{\partial&space;x1}{\partial&space;w1}" title="\frac{\partial L}{\partial w1}=\frac{\partial L}{\partial y}*\frac{\partial y}{\partial a1}*\frac{\partial a1}{\partial w1}" /></a>
+
+Weight 0: <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial&space;L}{\partial&space;w1}=\frac{\partial&space;L}{\partial&space;y}*\frac{\partial&space;y}{\partial&space;a1}*\frac{\partial&space;a1}{\partial&space;x1}&space;*&space;\frac{\partial&space;x1}{\partial&space;a0}&space;*&space;\frac{\partial&space;a0}{\partial&space;w0}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial&space;L}{\partial&space;w1}=\frac{\partial&space;L}{\partial&space;y}*\frac{\partial&space;y}{\partial&space;a1}*\frac{\partial&space;a1}{\partial&space;x1}&space;*&space;\frac{\partial&space;x1}{\partial&space;a0}&space;*&space;\frac{\partial&space;a0}{\partial&space;w0}" title="\frac{\partial L}{\partial w1}=\frac{\partial L}{\partial y}*\frac{\partial y}{\partial a1}*\frac{\partial a1}{\partial x1} * \frac{\partial x1}{\partial a0} * \frac{\partial a0}{\partial w0}" /></a>
+
+Bias 1: <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial&space;L}{\partial&space;b1}=\frac{\partial&space;L}{\partial&space;y}*\frac{\partial&space;y}{\partial&space;a1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial&space;L}{\partial&space;b1}=\frac{\partial&space;L}{\partial&space;y}*\frac{\partial&space;y}{\partial&space;a1}" title="\frac{\partial L}{\partial b1}=\frac{\partial L}{\partial y}*\frac{\partial y}{\partial a1}" /></a>
+
+Bias 0: <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial&space;L}{\partial&space;w1}=\frac{\partial&space;L}{\partial&space;y}*\frac{\partial&space;y}{\partial&space;a1}*\frac{\partial&space;a1}{\partial&space;x1}&space;*&space;\frac{\partial&space;x1}{\partial&space;a0}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial&space;L}{\partial&space;w1}=\frac{\partial&space;L}{\partial&space;y}*\frac{\partial&space;y}{\partial&space;a1}*\frac{\partial&space;a1}{\partial&space;x1}&space;*&space;\frac{\partial&space;x1}{\partial&space;a0}" title="\frac{\partial L}{\partial w1}=\frac{\partial L}{\partial y}*\frac{\partial y}{\partial a1}*\frac{\partial a1}{\partial x1} * \frac{\partial x1}{\partial a0}" /></a>
+
 Chain rule to combine them for the weights and bias terms
 
 ## Optimization
