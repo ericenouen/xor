@@ -48,7 +48,7 @@ for epoch in range(100000):
         grad_W_1_1 = (y_predict - y[i]) * a_1[0]
         grad_W_1_2 = (y_predict - y[i]) * a_1[1]
         
-        grad_W_1 += np.reshape([grad_W_1_1, grad_W_1_2], (2,1)) # dL/dy * dy/ds * ds/dw
+        grad_W_1 += np.reshape([grad_W_1_1, grad_W_1_2], (2,1))
         
 
         grad_W_0_1 = (y_predict - y[i]) * W_1[0] * (a_1[0] * (1 - a_1[0]) * X[i, 0])
