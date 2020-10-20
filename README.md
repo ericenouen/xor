@@ -65,7 +65,18 @@ The Linear Function is shown below
 The derivatives for each parameter must be taken.
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial}{\partial&space;W}(Wx&plus;b)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial}{\partial&space;W}(Wx&plus;b)" title="\frac{\partial}{\partial W}(Wx+b)" /></a>
+
+The derivative is equal to the following:
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=W" target="_blank"><img src="https://latex.codecogs.com/gif.latex?W" title="W" /></a>
+
+
+
 <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial}{\partial&space;b}(Wx&plus;b)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial}{\partial&space;b}(Wx&plus;b)" title="\frac{\partial}{\partial b}(Wx+b)" /></a>
+
+The derivative is equal to the following:
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?1" title="1" /></a>
 
 ### Chain Rule
 Chain rule to combine them for the weights and bias terms
