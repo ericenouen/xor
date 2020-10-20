@@ -52,12 +52,22 @@ The derivative is equal to the following:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\frac{e^{-x}}{(1&plus;e^{-x})^{2}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{e^{-x}}{(1&plus;e^{-x})^{2}}" title="\frac{e^{-x}}{(1+e^{-x})^{2}}" /></a>
 
-From there we can plug use the sigmoid equation to get the derivative in terms of y
+From there we can use the sigmoid equation to get the derivative in terms of y instead of x
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=y(1-y)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?y(1-y)" title="y(1-y)" /></a>
 
 ### Derivative for Linear Function
-### Derivative for Sigmoid Function
-### Derivative for Linear Function
 
+The Linear Function is shown below
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=y=Wx&plus;b" target="_blank"><img src="https://latex.codecogs.com/gif.latex?y=Wx&plus;b" title="y=Wx+b" /></a>
+
+The derivatives for each parameter must be taken.
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial}{\partial&space;W}(Wx&plus;b)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial}{\partial&space;W}(Wx&plus;b)" title="\frac{\partial}{\partial W}(Wx+b)" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{\partial}{\partial&space;b}(Wx&plus;b)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{\partial}{\partial&space;b}(Wx&plus;b)" title="\frac{\partial}{\partial b}(Wx+b)" /></a>
+
+### Chain Rule
 Chain rule to combine them for the weights and bias terms
 
 ## Optimization
