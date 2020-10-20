@@ -97,3 +97,8 @@ These were computed and are shown in the attached python file. There will be som
 For this problem gradient descent will often get stuck in plateaus. There have been a couple of papers written that highlight that these are not local minima but are actually plateus where the loss function stays relatively constant around a certain point. These plateaus result in almost zero gradient which halts gradient descent on the plateau and stops the model from being able to reach the absolute minimum of the loss function.
 
 Whether the model gets stuck on a plateau is largely dependent on the initialization of the weights. Since the weights are randomly initialized, sometimes the model will converge to the minima and sometimes the model will not converge in a reasonable amount of epochs.
+
+
+![alt text](Output_Plateau.jpeg)
+![alt text](Output_Plateau2.jpeg)
+![alt text](Output Graph.jpeg)
